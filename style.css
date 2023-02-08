@@ -1,0 +1,288 @@
+/* common css start */
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    margin: 0px 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    padding-bottom: 20px;
+}
+
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    padding-bottom: 30px;
+
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: right;
+    padding: 20px 25px;
+    color: #fff;
+    background-color: #005FAC;
+    border-radius: 5px;
+}
+
+/* common css ends */
+
+/* banner start */
+#banner {
+    background-image: url(./images/banner/banner3.png);
+    background-size: cover;
+    background-position: center;
+    background-position: no-repeat;
+    padding: 268px 0px;
+}
+
+#banner .container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#banner .text-content {
+    text-align: right;
+    width: 600px;
+}
+
+#banner .banner-title {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+#banner .paragraph {
+    color: #FFFFFF;
+    margin-bottom: 45px;
+}
+
+#banner .btn {
+    color: #005FAC;
+    background-color: #fff;
+}
+
+/* banner ends */
+
+/* about start */
+#about {
+    padding: 100px 0px;
+}
+
+#about .container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+#about .text-box ul {
+    list-style: none;
+}
+
+#about .text-box ul li {
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#about .text-box ul li p {
+    padding-left: 20px;
+}
+
+/* about ends */
+
+
+
+/* plans start */
+
+#plans {
+    padding: 100px 0px;
+    background-color: rgb(237, 245, 255);
+}
+
+#plans .section-title {
+    text-align: center;
+}
+
+#plans .paragraph {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#plans .plans-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+#plans .plans-container .plan {
+    background: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+}
+
+#plans .plans-container .plan img {
+    margin-bottom: 30px;
+}
+
+#plans .plans-container .plan-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+}
+
+#plans .plans-container .plan-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+}
+
+/* plans ends */
+
+
+/* service start */
+#service {
+    padding: 100px 0px;
+}
+
+#service .section-title {
+    text-align: center;
+}
+
+#service .paragraph {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+#service .container {
+    text-align: center;
+    display: flex;
+    gap: 30px;
+}
+
+#service .container .content-box {
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#service .container .content-box img {
+    margin-bottom: 30px;
+}
+
+#service .container .content-box .service-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #181818;
+    padding-bottom: 10px;
+}
+
+/* service ends */
+
+/* call start */
+#call {
+    padding: 100px 0px;
+}
+
+#call .main-content {
+    background-image: url(./images/gradient1.png), url(./images/watch.png);
+    background-position: center, left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    padding: 80px 60px;
+    width: 100%;
+}
+
+#call .main-content .section-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+    padding-bottom: 40px;
+}
+
+#call .main-content .btn {
+    background-color: #fff;
+    color: #005FAC;
+}
+
+/* call ends */
+
+/* footer start */
+#footer {
+    padding: 100px 0px;
+    background-color: #151414;
+}
+
+#footer .container {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+}
+
+#footer .container .left-side {
+    color: #fff;
+}
+
+#footer .container .section-title {
+    color: #fff;
+}
+
+
+#footer .container .paragraph {
+    color: #fff;
+}
+
+#footer .container a {
+    color: #fff;
+}
+
+#footer .container .email {
+    padding-bottom: 20px;
+}
+
+#footer .container ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0px;
+    padding-top: 30px;
+}
+
+#footer .container ul li {
+    padding-right: 15px;
+}
+
+#footer .container input {
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    width: 325px;
+    height: 64px;
+    color: #fff;
+    padding-left: 20px ;
+    background-color: transparent;
+    display: block;
+    margin-bottom: 30px;
+}
+
+/* footer ends */
